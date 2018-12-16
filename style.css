@@ -1,0 +1,18 @@
+h1{
+    text-shadow: 5px 5px rgb(227, 219, 226);
+}
+table{
+    border: solid red;;
+    text-align: center;
+   
+    padding: 5px; 
+    
+}
+
+
+td{
+    border: solid greenyellow;
+    font-size: 30px;
+    color: gold;
+   
+}
