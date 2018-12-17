@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jeopardy Game</title>
     <link rel="stylesheet" href="style.css">
-    <script src="jeopardy.js"></script>
+    <script defer src="jeopardy.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 <body>
        <div class="wrapper">
@@ -27,11 +29,11 @@
                 <tr>
     </div>
     <!-- td is the data cell in the table will hold cards plus different values (100-500)-->
-    <td id="tdOne" onclick="One()">
+    <td id="tdOne">
 
         <!-- make the div into a button that can called on in javscript to display my modal -->
 
-        <div class="card" id="one">
+        <div class="modal" id="one">
            10
         </div>
 
@@ -180,5 +182,6 @@
     </table>
                 </div>
  </div>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
