@@ -1,4 +1,4 @@
-# unit1Project
+# Unit1Project
  PROJECT-1-MAKE A GAME:
 
 
@@ -11,8 +11,19 @@ Link to game!
 
 
 WireFrame:
-"images/wireframe2.png"
-"images/wireframe3.png"
+/images/wireframe2.png
+/images/wireframe3.png
+
+Technologies:
+Languages - HTML, CSS, Javascript, JQuery
+Design - Google Fonts
+w3 Schools Modals
+Trello
+
+Future Developments:
+Add a second player function with corresponding score board
+Replace alert pop up with custom modal with radio buttons
+
 
 
 
