@@ -9,6 +9,8 @@
 
 
 #WireFrame
+#images/wireframe2.png
+#images/wireframe3.png
 
 
 
