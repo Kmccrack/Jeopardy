@@ -1,3 +1,6 @@
+body{
+ background-color: blanchedalmond;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -27,3 +30,10 @@ td{
     color: #B00A2A;
    
 }
+.card{
+    padding: 6px 12px;
+    color: #000;
+    font-size: 15px;
+    padding-top: 17px;
+    border: 1px solid transparent;
+} 
