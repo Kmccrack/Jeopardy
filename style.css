@@ -1,5 +1,5 @@
 body{
- background-color: blanchedalmond;
+ background-color: blue;
 }
 .wrapper{
     display: flex;
@@ -30,10 +30,17 @@ td{
     color: #B00A2A;
    
 }
-.card{
-    padding: 6px 12px;
-    color: #000;
-    font-size: 15px;
-    padding-top: 17px;
-    border: 1px solid transparent;
-} 
+.customSwalBtn{
+    background-color: rgba(214,130,47,1.00);
+border-left-color: rgba(214,130,47,1.00);
+border-right-color: rgba(214,130,47,1.00);
+border: 0;
+border-radius: 3px;
+box-shadow: none;
+color: #fff;
+cursor: pointer;
+font-size: 17px;
+font-weight: 500;
+margin: 30px 5px 0px 5px;
+padding: 10px 32px;
+}
