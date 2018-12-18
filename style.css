@@ -1,5 +1,5 @@
 .contain{
-    background-color: bisque;
+    background-color: black;
 }
 .wrapper{
     display: flex;
@@ -13,8 +13,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-shadow: 5px 5px rgb(227, 219, 226);
-    color: #BD3E56;
+    font-size: 60px;
+    color: red;
 }
 table{
     /* border: solid #8C3244; */
@@ -52,24 +52,19 @@ td{
     background-color: blanchedalmond;
     border: 3px solid white;
   }
-  .swal-button{
-
-  }
-  .disable{
-     
-      /* pointer-events: none; */
-  }
-.customSwalBtn{
-    background-color: rgba(214,130,47,1.00);
-border-left-color: rgba(214,130,47,1.00);
-border-right-color: rgba(214,130,47,1.00);
-border: 0;
-border-radius: 3px;
-box-shadow: none;
+  
+.swal-button{
+background-color:rgba(255, 0, 0, 0.875);
+border-radius: 13px;
+display: flex;
+flex-direction: column;
 color: #fff;
 cursor: pointer;
 font-size: 17px;
 font-weight: 500;
-margin: 30px 5px 0px 5px;
+margin:0px;
 padding: 10px 32px;
+}
+td:hover{
+background-color: white;
 }
