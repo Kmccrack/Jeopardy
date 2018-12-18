@@ -17,8 +17,11 @@ function questionOne() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-
+    $("#one").css("display", "none");
+    $('#one').css("pointer-events", "none");
 }
+
+
 
 
 document.getElementById("two").addEventListener("click", questionTwo)
@@ -38,7 +41,8 @@ function questionTwo() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-
+    $("#two").css("display", "none");
+    $('#two').css("pointer-events", "none");
 }
 
 
@@ -62,7 +66,8 @@ function questionThree() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-
+    $("#three").css("display", "none");
+    $('#three').css("pointer-events", "none");
 }
 
 document.getElementById("four").addEventListener("click", questionFour)
@@ -84,7 +89,8 @@ function questionFour() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-
+    $("#four").css("display", "none");
+    $('#four').css("pointer-events", "none");
 }
 
 document.getElementById("five").addEventListener("click", questionFive)
@@ -106,7 +112,8 @@ function questionFive() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-
+    $("#five").css("display", "none");
+    $('#five').css("pointer-events", "none");
 }
 
 document.getElementById("six").addEventListener("click", questionSix)
@@ -127,6 +134,8 @@ function questionSix() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#six").css("display", "none");
+    $('#six').css("pointer-events", "none");
 }
 
 document.getElementById("seven").addEventListener("click", questionSeven)
@@ -147,6 +156,8 @@ function questionSeven() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#seven").css("display", "none");
+    $('#seven').css("pointer-events", "none");
 }
 
 document.getElementById("eight").addEventListener("click", questionEight)
@@ -167,6 +178,8 @@ function questionEight() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#eight").css("display", "none");
+    $('#eight').css("pointer-events", "none");
 }
 
 document.getElementById("nine").addEventListener("click", questionNine)
@@ -187,6 +200,8 @@ function questionNine() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#nine").css("display", "none");
+    $('#nine').css("pointer-events", "none");
 }
 
 document.getElementById("ten").addEventListener("click", questionTen)
@@ -207,6 +222,8 @@ function questionTen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#ten").css("display", "none");
+    $('#ten').css("pointer-events", "none");
 }
 
 
@@ -230,6 +247,8 @@ function questionEleven() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#eleven").css("display", "none");
+    $('#eleven').css("pointer-events", "none");
 }
 
 document.getElementById("twelve").addEventListener("click", questionTwelve)
@@ -251,6 +270,8 @@ function questionTwelve() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twelve").css("display", "none");
+    $('#twelve').css("pointer-events", "none"); 
 }
 
 document.getElementById("thirteen").addEventListener("click", questionThirteen)
@@ -271,6 +292,8 @@ function questionThirteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#thirteen").css("display", "none");
+    $('#thirteen').css("pointer-events", "none");
 }
 
 document.getElementById("fourteen").addEventListener("click", questionFourteen)
@@ -293,6 +316,8 @@ function questionFourteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#fourteen").css("display", "none");
+    $('#fourteen').css("pointer-events", "none");
 }
 
 document.getElementById("fifteen").addEventListener("click", questionFifteen)
@@ -315,6 +340,8 @@ function questionFifteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#fifteen").css("display", "none");
+    $('#fifteen').css("pointer-events", "none");
 }
 
 document.getElementById("sixteen").addEventListener("click", questionSixteen)
@@ -335,6 +362,8 @@ function questionSixteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#sixteen").css("display", "none");
+    $('#sixteen').css("pointer-events", "none");
 }
 
 
@@ -356,6 +385,8 @@ function questionSeventeen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#seventeen").css("display", "none");
+    $('#seventeen').css("pointer-events", "none");
 }
 
 document.getElementById("eighteen").addEventListener("click", questionEighteen)
@@ -374,6 +405,8 @@ function questionEighteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#eighteen").css("display", "none");
+    $('#eighteen').css("pointer-events", "none");
 }
 
 document.getElementById("nineteen").addEventListener("click", questionNineteen)
@@ -394,6 +427,8 @@ function questionNineteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#nineteen").css("display", "none");
+    $('#nineteen').css("pointer-events", "none");
 }
 
 document.getElementById("twenty").addEventListener("click", questionTwenty)
@@ -414,6 +449,8 @@ function questionTwenty() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twenty").css("display", "none");
+    $('#twenty').css("pointer-events", "none");
 }
 
 document.getElementById("twentyone").addEventListener("click", questionTwentyOne)
@@ -434,6 +471,8 @@ function questionTwentyOne() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twentyone").css("display", "none");
+    $('#twentyone').css("pointer-events", "none");
 }
 
 document.getElementById("twentytwo").addEventListener("click", questionTwentyTwo)
@@ -454,6 +493,8 @@ function questionTwentyTwo() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twentytwo").css("display", "none");
+    $('#twentytwo').css("pointer-events", "none");
 }
 
 document.getElementById("twentythree").addEventListener("click", questionTwentyThree)
@@ -474,6 +515,8 @@ function questionTwentyThree() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twentythree").css("display", "none");
+    $('#twentythree').css("pointer-events", "none");
 }
 
 document.getElementById("twentyfour").addEventListener("click", questionTwentyFour)
@@ -494,6 +537,8 @@ function questionTwentyFour() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twentyfour").css("display", "none");
+    $('#twentyfour').css("pointer-events", "none");
 }
 
 document.getElementById("twentyfive").addEventListener("click", questionTwentyFive)
@@ -513,6 +558,8 @@ function questionTwentyFive() {
         $('#scoreBoard').html("Score:" + score)
 
     })
+    $("#twentyfive").css("display", "none");
+    $('#twentyfive').css("pointer-events", "none");
 }
 
 

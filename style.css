@@ -25,8 +25,8 @@ table{
     text-align: center;
     margin: 0;
     font-family: 'Abril Fatface', cursive;
-    width: 100vw;
-    height: autp;
+    width: 70vw;
+    height: 50vh;
     padding: 5px; 
     
 }
@@ -45,6 +45,20 @@ td{
     color: #B00A2A;
    
 }
+.swal-overlay {
+    background-color: rgba(135, 30, 30, 0.457);
+  }
+  .swal-modal {
+    background-color: blanchedalmond;
+    border: 3px solid white;
+  }
+  .swal-button{
+
+  }
+  .disable{
+     
+      /* pointer-events: none; */
+  }
 .customSwalBtn{
     background-color: rgba(214,130,47,1.00);
 border-left-color: rgba(214,130,47,1.00);
