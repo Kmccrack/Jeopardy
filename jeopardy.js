@@ -21,8 +21,9 @@ function questionOne() {
     start++;
     $("#one").css("visibility", "hidden");
     $('#one').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 
 
@@ -47,8 +48,9 @@ function questionTwo() {
     start++;
     $("#two").css("visibility", "hidden");
     $('#two').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 
 
@@ -74,8 +76,9 @@ function questionThree() {
     start++;
     $("#three").css("visibility", "hidden");
     $('#three').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("four").addEventListener("click", questionFour)
 
@@ -99,8 +102,9 @@ function questionFour() {
     start++;
     $("#four").css("visibility", "hidden");
     $('#four').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("five").addEventListener("click", questionFive)
 
@@ -124,8 +128,9 @@ function questionFive() {
     start++;
     $("#five").css("visibility", "hidden");
     $('#five').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("six").addEventListener("click", questionSix)
 
@@ -148,8 +153,9 @@ function questionSix() {
     start++;
     $("#six").css("visibility", "hidden");
     $('#six').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("seven").addEventListener("click", questionSeven)
 
@@ -165,15 +171,16 @@ function questionSeven() {
     }
     )
     $('.swal-button--c').on('click', () => {
-        score 2 = 200;
+        score += 200;
         $('#scoreBoard').html("Score:" + score)
 
     })
     start++;
     $("#seven").css("visibility", "hidden");
     $('#seven').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("eight").addEventListener("click", questionEight)
 
@@ -196,8 +203,9 @@ function questionEight() {
     start++;
     $("#eight").css("visibility", "hidden");
     $('#eight').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("nine").addEventListener("click", questionNine)
 
@@ -220,8 +228,9 @@ function questionNine() {
     start++;
     $("#nine").css("visibility", "hidden");
     $('#nine').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("ten").addEventListener("click", questionTen)
 
@@ -244,8 +253,9 @@ function questionTen() {
     })
     $("#ten").css("visibility", "hidden");
     $('#ten').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 
 
@@ -271,8 +281,9 @@ function questionEleven() {
     start++;
     $("#eleven").css("visibility", "hidden");
     $('#eleven').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twelve").addEventListener("click", questionTwelve)
 
@@ -296,8 +307,9 @@ function questionTwelve() {
     start++;
     $("#twelve").css("visibility", "hidden");
     $('#twelve').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("thirteen").addEventListener("click", questionThirteen)
 
@@ -320,8 +332,9 @@ function questionThirteen() {
     start++;
     $("#thirteen").css("visibility", "hidden");
     $('#thirteen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("fourteen").addEventListener("click", questionFourteen)
 
@@ -346,8 +359,9 @@ function questionFourteen() {
     start++;
     $("#fourteen").css("visibility", "hidden");
     $('#fourteen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("fifteen").addEventListener("click", questionFifteen)
 
@@ -372,8 +386,9 @@ function questionFifteen() {
     start++;
     $("#fifteen").css("visibility", "hidden");
     $('#fifteen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("sixteen").addEventListener("click", questionSixteen)
 
@@ -396,8 +411,9 @@ function questionSixteen() {
     start++;
     $("#sixteen").css("visibility", "hidden");
     $('#sixteen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 
 document.getElementById("seventeen").addEventListener("click", questionSeventeen)
@@ -421,8 +437,9 @@ function questionSeventeen() {
     start++;
     $("#seventeen").css("visibility", "hidden");
     $('#seventeen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("eighteen").addEventListener("click", questionEighteen)
 
@@ -443,8 +460,9 @@ function questionEighteen() {
     start++;
     $("#eighteen").css("visibility", "hidden");
     $('#eighteen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("nineteen").addEventListener("click", questionNineteen)
 
@@ -467,8 +485,9 @@ function questionNineteen() {
     start++;
     $("#nineteen").css("visibility", "hidden");
     $('#nineteen').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twenty").addEventListener("click", questionTwenty)
 
@@ -491,8 +510,9 @@ function questionTwenty() {
     start++;
     $("#twenty").css("visibility", "hidden");
     $('#twenty').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twentyone").addEventListener("click", questionTwentyOne)
 
@@ -515,8 +535,9 @@ function questionTwentyOne() {
     start++;
     $("#twentyone").css("visibility", "hidden");
     $('#twentyone').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twentytwo").addEventListener("click", questionTwentyTwo)
 
@@ -539,8 +560,9 @@ function questionTwentyTwo() {
     start++;
     $("#twentytwo").css("visibility", "hidden");
     $('#twentytwo').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twentythree").addEventListener("click", questionTwentyThree)
 
@@ -563,8 +585,9 @@ function questionTwentyThree() {
     start++;
     $("#twentythree").css("visibility", "hidden");
     $('#twentythree').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twentyfour").addEventListener("click", questionTwentyFour)
 
@@ -587,8 +610,9 @@ function questionTwentyFour() {
     start++;
     $("#twentyfour").css("visibility", "hidden");
     $('#twentyfour').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 document.getElementById("twentyfive").addEventListener("click", questionTwentyFive)
 
@@ -610,8 +634,9 @@ function questionTwentyFive() {
     start++;
     $("#twentyfive").css("visibility", "hidden");
     $('#twentyfive').css("pointer-events", "none");
+    endGame();
 }
-endGame();
+
 
 function endGame() {
     if (start >= 50 && score > 5000) {
@@ -625,6 +650,7 @@ function endGame() {
         )
     }
 }
+endGame()
 
 
 

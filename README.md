@@ -2,7 +2,7 @@
  **PROJECT-1-MAKE A GAME:**
 
 
- Jeopardy - the classic quiz game show with an movie theme twist. This single player game, displays 5 categories of tiles between 100 and 500 points. Select a category from 1 of the 5 tiles. Answer correctly in the form of a question, and earn the value of the tile. Be careful though, every wrong answer will deduct the value of your card from your score! Have fun!
+ Jeopardy - the classic quiz game show with an movie theme twist. This single player game, displays 5 categories of tiles between 100 and 500 points. Select a category from 1 of the 5 tiles. Answer correctly in the form of a question, and earn the value of the tile. Have fun! See if you can _Bring It On!_
 
 **Trello Board:**
 https://trello.com/b/4zgr3NV0/wdi-project-1
@@ -24,6 +24,12 @@ Link to game!
 *Trello
 *SweetAlert
 *Bootstrap
+
+**Features**
+*Responsive
+*Scoreboard
+*User Experience
+*Reset Game Button
 
 **Future Developments:**
 
