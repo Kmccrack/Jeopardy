@@ -1,4 +1,5 @@
 var score = 0;
+var start = 0;
 
 document.getElementById("one").addEventListener("click", questionOne)
 
@@ -8,7 +9,7 @@ function questionOne() {
         buttons: {
             a: "True",
             b: "False",
-            
+
         }
     }
     )
@@ -17,9 +18,11 @@ function questionOne() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#one").css("display", "none");
+    start++;
+    $("#one").css("visibility", "hidden");
     $('#one').css("pointer-events", "none");
 }
+endGame();
 
 
 
@@ -32,7 +35,7 @@ function questionTwo() {
         buttons: {
             a: "True",
             b: "False",
-            
+
         }
     }
     )
@@ -41,9 +44,11 @@ function questionTwo() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#two").css("display", "none");
+    start++;
+    $("#two").css("visibility", "hidden");
     $('#two').css("pointer-events", "none");
 }
+endGame();
 
 
 
@@ -57,7 +62,7 @@ function questionThree() {
             b: "Orange",
             c: "Yellow",
             d: "Green"
-            
+
         }
     }
     )
@@ -66,9 +71,11 @@ function questionThree() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#three").css("display", "none");
+    start++;
+    $("#three").css("visibility", "hidden");
     $('#three').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("four").addEventListener("click", questionFour)
 
@@ -77,10 +84,10 @@ function questionFour() {
         text: "What is the name of the 2004 sequal ?",
         buttons: {
             a: "Bring it again",
-            b: "Bring it more",            
+            b: "Bring it more",
             c: "Bring it on again",
             d: "Bring it on more"
-            
+
         }
     }
     )
@@ -89,9 +96,11 @@ function questionFour() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#four").css("display", "none");
+    start++;
+    $("#four").css("visibility", "hidden");
     $('#four').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("five").addEventListener("click", questionFive)
 
@@ -100,10 +109,10 @@ function questionFive() {
         text: "How many years has it been since Bring It On been released",
         buttons: {
             a: "10 years",
-            b: "5 years",            
+            b: "5 years",
             c: "20 years",
             d: "18 years"
-            
+
         }
     }
     )
@@ -112,9 +121,11 @@ function questionFive() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#five").css("display", "none");
+    start++;
+    $("#five").css("visibility", "hidden");
     $('#five').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("six").addEventListener("click", questionSix)
 
@@ -134,9 +145,11 @@ function questionSix() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#six").css("display", "none");
+    start++;
+    $("#six").css("visibility", "hidden");
     $('#six').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("seven").addEventListener("click", questionSeven)
 
@@ -156,9 +169,11 @@ function questionSeven() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#seven").css("display", "none");
+    start++;
+    $("#seven").css("visibility", "hidden");
     $('#seven').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("eight").addEventListener("click", questionEight)
 
@@ -178,9 +193,11 @@ function questionEight() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#eight").css("display", "none");
+    start++;
+    $("#eight").css("visibility", "hidden");
     $('#eight').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("nine").addEventListener("click", questionNine)
 
@@ -200,9 +217,11 @@ function questionNine() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#nine").css("display", "none");
+    start++;
+    $("#nine").css("visibility", "hidden");
     $('#nine').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("ten").addEventListener("click", questionTen)
 
@@ -217,14 +236,16 @@ function questionTen() {
         }
     }
     )
+    start++;
     $('.swal-button--b').on('click', () => {
         score += 500;
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#ten").css("display", "none");
+    $("#ten").css("visibility", "hidden");
     $('#ten').css("pointer-events", "none");
 }
+endGame();
 
 
 
@@ -247,9 +268,11 @@ function questionEleven() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#eleven").css("display", "none");
+    start++;
+    $("#eleven").css("visibility", "hidden");
     $('#eleven').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twelve").addEventListener("click", questionTwelve)
 
@@ -270,9 +293,11 @@ function questionTwelve() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twelve").css("display", "none");
-    $('#twelve').css("pointer-events", "none"); 
+    start++;
+    $("#twelve").css("visibility", "hidden");
+    $('#twelve').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("thirteen").addEventListener("click", questionThirteen)
 
@@ -282,7 +307,7 @@ function questionThirteen() {
         buttons: {
             a: "True",
             b: "False",
-           
+
         }
     }
     )
@@ -292,9 +317,11 @@ function questionThirteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#thirteen").css("display", "none");
+    start++;
+    $("#thirteen").css("visibility", "hidden");
     $('#thirteen').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("fourteen").addEventListener("click", questionFourteen)
 
@@ -306,7 +333,7 @@ function questionFourteen() {
             b: "Jamie",
             c: "Missy",
             d: "Isis"
-           
+
         }
     }
     )
@@ -316,9 +343,11 @@ function questionFourteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#fourteen").css("display", "none");
+    start++;
+    $("#fourteen").css("visibility", "hidden");
     $('#fourteen').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("fifteen").addEventListener("click", questionFifteen)
 
@@ -330,7 +359,7 @@ function questionFifteen() {
             b: "Fergie",
             c: "Shakira",
             d: "Britney Spears"
-           
+
         }
     }
     )
@@ -340,9 +369,11 @@ function questionFifteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#fifteen").css("display", "none");
+    start++;
+    $("#fifteen").css("visibility", "hidden");
     $('#fifteen').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("sixteen").addEventListener("click", questionSixteen)
 
@@ -362,9 +393,11 @@ function questionSixteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#sixteen").css("display", "none");
+    start++;
+    $("#sixteen").css("visibility", "hidden");
     $('#sixteen').css("pointer-events", "none");
 }
+endGame();
 
 
 document.getElementById("seventeen").addEventListener("click", questionSeventeen)
@@ -385,9 +418,11 @@ function questionSeventeen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#seventeen").css("display", "none");
+    start++;
+    $("#seventeen").css("visibility", "hidden");
     $('#seventeen').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("eighteen").addEventListener("click", questionEighteen)
 
@@ -405,9 +440,11 @@ function questionEighteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#eighteen").css("display", "none");
+    start++;
+    $("#eighteen").css("visibility", "hidden");
     $('#eighteen').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("nineteen").addEventListener("click", questionNineteen)
 
@@ -427,9 +464,11 @@ function questionNineteen() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#nineteen").css("display", "none");
+    start++;
+    $("#nineteen").css("visibility", "hidden");
     $('#nineteen').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twenty").addEventListener("click", questionTwenty)
 
@@ -449,9 +488,11 @@ function questionTwenty() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twenty").css("display", "none");
+    start++;
+    $("#twenty").css("visibility", "hidden");
     $('#twenty').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twentyone").addEventListener("click", questionTwentyOne)
 
@@ -471,9 +512,11 @@ function questionTwentyOne() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twentyone").css("display", "none");
+    start++;
+    $("#twentyone").css("visibility", "hidden");
     $('#twentyone').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twentytwo").addEventListener("click", questionTwentyTwo)
 
@@ -493,9 +536,11 @@ function questionTwentyTwo() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twentytwo").css("display", "none");
+    start++;
+    $("#twentytwo").css("visibility", "hidden");
     $('#twentytwo').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twentythree").addEventListener("click", questionTwentyThree)
 
@@ -515,9 +560,11 @@ function questionTwentyThree() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twentythree").css("display", "none");
+    start++;
+    $("#twentythree").css("visibility", "hidden");
     $('#twentythree').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twentyfour").addEventListener("click", questionTwentyFour)
 
@@ -537,9 +584,11 @@ function questionTwentyFour() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twentyfour").css("display", "none");
+    start++;
+    $("#twentyfour").css("visibility", "hidden");
     $('#twentyfour').css("pointer-events", "none");
 }
+endGame();
 
 document.getElementById("twentyfive").addEventListener("click", questionTwentyFive)
 
@@ -558,19 +607,30 @@ function questionTwentyFive() {
         $('#scoreBoard').html("Score:" + score)
 
     })
-    $("#twentyfive").css("display", "none");
+    start++;
+    $("#twentyfive").css("visibility", "hidden");
     $('#twentyfive').css("pointer-events", "none");
 }
+endGame();
 
-function endGame(){
-    if (score > 99){
-alert("you have won")
-    }
+function endGame() {
+    if (start >= 50 && score > 5000) {
+   swal(
+       "You have won! You have what it takes to Bring It On!"
+   )}
+   else if (start >= 50 && score < 5000){
+       swal(
+         "You have completed the game but didnt Bring it :("  
+       )
+   }
 }
 
 
 
-    
+
+
+
+
 
 
 
