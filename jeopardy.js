@@ -65,6 +65,50 @@ function questionThree() {
 
 }
 
+document.getElementById("four").addEventListener("click", questionFour)
+
+function questionFour() {
+    swal({
+        text: "What is the name of the 2004 sequal ?",
+        buttons: {
+            a: "Bring it again",
+            b: "Bring it more",            
+            c: "Bring it on again",
+            d: "Bring it on more"
+            
+        }
+    }
+    )
+    $('.swal-button--c').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+
+}
+
+document.getElementById("five").addEventListener("click", questionFive)
+
+function questionFive() {
+    swal({
+        text: "How many years has it been since Bring It On been released",
+        buttons: {
+            a: "10 years",
+            b: "5 years",            
+            c: "20 years",
+            d: "18 years"
+            
+        }
+    }
+    )
+    $('.swal-button--d').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+
+}
+
 document.getElementById("six").addEventListener("click", questionSix)
 
 function questionSix() {
@@ -115,6 +159,46 @@ function questionEight() {
             b: "Isis",
             c: "They didn't say",
             d: "Lava and Isis were both co-captains",
+        }
+    }
+    )
+    $('.swal-button--b').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("nine").addEventListener("click", questionNine)
+
+function questionNine() {
+    swal({
+        text: "What book was Cliff reading at the football game?",
+        buttons: {
+            a: "To Kill a Mockingbird",
+            b: "Harry Potter",
+            c: "The Naked Ape",
+            d: "Tuck Everlasting",
+        }
+    }
+    )
+    $('.swal-button--c').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("ten").addEventListener("click", questionTen)
+
+function questionTen() {
+    swal({
+        text: "What show was Elize Dushku on",
+        buttons: {
+            a: "Reba",
+            b: "Buffy the Vampire Slayer",
+            c: "Gossip Girl",
+            d: "90210",
         }
     }
     )
@@ -189,6 +273,50 @@ function questionThirteen() {
     })
 }
 
+document.getElementById("fourteen").addEventListener("click", questionFourteen)
+
+function questionFourteen() {
+    swal({
+        text: "What is Whitney's sister's name?",
+        buttons: {
+            a: "Courtney",
+            b: "Jamie",
+            c: "Missy",
+            d: "Isis"
+           
+        }
+    }
+    )
+
+    $('.swal-button--b').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("fifteen").addEventListener("click", questionFifteen)
+
+function questionFifteen() {
+    swal({
+        text: "What superstar was Torrance Shipman character Based on",
+        buttons: {
+            a: "Gwen Stefani",
+            b: "Fergie",
+            c: "Shakira",
+            d: "Britney Spears"
+           
+        }
+    }
+    )
+
+    $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
 document.getElementById("sixteen").addEventListener("click", questionSixteen)
 
 function questionSixteen() {
@@ -242,6 +370,46 @@ function questionEighteen() {
     }
     )
     $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("nineteen").addEventListener("click", questionNineteen)
+
+function questionNineteen() {
+    swal({
+        text: "What state in the national championships held in?",
+        buttons: {
+            a: "California",
+            b: "Florida",
+            c: "Texas",
+            d: "Arizona"
+        }
+    }
+    )
+    $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("twenty").addEventListener("click", questionTwenty)
+
+function questionTwenty() {
+    swal({
+        text: "What does The Toro's high school name translate to?",
+        buttons: {
+            a: "Meat House",
+            b: "Meat Farm",
+            c: "Meat Ranch",
+            d: "Ranch of Meat",
+        }
+    }
+    )
+    $('.swal-button--c').on('click', () => {
         score += 100;
         $('#scoreBoard').html("Score:" + score)
 
@@ -302,6 +470,45 @@ function questionTwentyThree() {
     }
     )
     $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("twentyfour").addEventListener("click", questionTwentyFour)
+
+function questionTwentyFour() {
+    swal({
+        text: "Who was the captain of the Toro cheerleading squad before Torrance was?",
+        buttons: {
+            a: "Big Red",
+            b: "Isis",
+            c: "Courtney",
+            d: "Whitney",
+        }
+    }
+    )
+    $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("twentyfive").addEventListener("click", questionTwentyFive)
+
+function questionTwentyFive() {
+    swal({
+        text: "Was the Dancing on the Bed Scene Choreographed?",
+        buttons: {
+            a: "Yes",
+            b: "No",
+
+        }
+    }
+    )
+    $('.swal-button--b').on('click', () => {
         score += 100;
         $('#scoreBoard').html("Score:" + score)
 
