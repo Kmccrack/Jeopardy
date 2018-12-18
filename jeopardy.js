@@ -37,7 +37,7 @@ function questionTwo() {
     }
     )
     $('.swal-button--b').on('click', () => {
-        score += 100;
+        score += 200;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -62,7 +62,7 @@ function questionThree() {
     }
     )
     $('.swal-button--d').on('click', () => {
-        score += 100;
+        score += 300;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -85,7 +85,7 @@ function questionFour() {
     }
     )
     $('.swal-button--c').on('click', () => {
-        score += 100;
+        score += 400;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -108,7 +108,7 @@ function questionFive() {
     }
     )
     $('.swal-button--d').on('click', () => {
-        score += 100;
+        score += 500;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -152,7 +152,7 @@ function questionSeven() {
     }
     )
     $('.swal-button--c').on('click', () => {
-        score += 100;
+        score += 200;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -174,7 +174,7 @@ function questionEight() {
     }
     )
     $('.swal-button--b').on('click', () => {
-        score += 100;
+        score += 300;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -196,7 +196,7 @@ function questionNine() {
     }
     )
     $('.swal-button--c').on('click', () => {
-        score += 100;
+        score += 400;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -218,7 +218,7 @@ function questionTen() {
     }
     )
     $('.swal-button--b').on('click', () => {
-        score += 100;
+        score += 500;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -266,7 +266,7 @@ function questionTwelve() {
     )
 
     $('.swal-button--b').on('click', () => {
-        score += 100;
+        score += 200;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -288,7 +288,7 @@ function questionThirteen() {
     )
 
     $('.swal-button--a').on('click', () => {
-        score += 100;
+        score += 300;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -312,7 +312,7 @@ function questionFourteen() {
     )
 
     $('.swal-button--b').on('click', () => {
-        score += 100;
+        score += 400;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -336,7 +336,7 @@ function questionFifteen() {
     )
 
     $('.swal-button--a').on('click', () => {
-        score += 100;
+        score += 500;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -381,7 +381,7 @@ function questionSeventeen() {
     }
     )
     $('.swal-button--d').on('click', () => {
-        score += 100;
+        score += 200;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -401,7 +401,7 @@ function questionEighteen() {
     }
     )
     $('.swal-button--a').on('click', () => {
-        score += 100;
+        score += 300;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -423,7 +423,7 @@ function questionNineteen() {
     }
     )
     $('.swal-button--a').on('click', () => {
-        score += 100;
+        score += 400;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -445,7 +445,7 @@ function questionTwenty() {
     }
     )
     $('.swal-button--c').on('click', () => {
-        score += 100;
+        score += 500;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -489,7 +489,7 @@ function questionTwentyTwo() {
     }
     )
     $('.swal-button--d').on('click', () => {
-        score += 100;
+        score += 200;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -511,7 +511,7 @@ function questionTwentyThree() {
     }
     )
     $('.swal-button--a').on('click', () => {
-        score += 100;
+        score += 300;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -533,7 +533,7 @@ function questionTwentyFour() {
     }
     )
     $('.swal-button--a').on('click', () => {
-        score += 100;
+        score += 400;
         $('#scoreBoard').html("Score:" + score)
 
     })
@@ -554,13 +554,25 @@ function questionTwentyFive() {
     }
     )
     $('.swal-button--b').on('click', () => {
-        score += 100;
+        score += 500;
         $('#scoreBoard').html("Score:" + score)
 
     })
     $("#twentyfive").css("display", "none");
     $('#twentyfive').css("pointer-events", "none");
 }
+
+function endGame(){
+    if (score > 99){
+alert("you have won")
+    }
+}
+
+
+
+    
+
+
 
 
 
