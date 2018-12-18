@@ -11,21 +11,39 @@ $("#one").on("click", function(){
         }}
         )
        
-        if (swal.a.data("clicked") == true){ 
-        score += $("#one").val();
-        $('#scoreBoard').html(score)}
-        else if(swal.b.data("clicked") == false|| swal.c.data("clicked") == false || swal.d.data("clicked") == false){
-        score -=$("#one").val();
-        }
-        var elementClicked;
-$("element").click(function(){
-   elementClicked = true;
-});
-if( elementClicked != true ) {
-    alert("element not clicked");
-}else{
-    alert("element clicked");
-}
-        
+        $('.swal-button--a').on('click', () => {
+            // console.log(score, $('#one').val())
+            // score += parseInt($("#one").val());
+            score += 100;
+            $('#scoreBoard').html("Score:" + score)
+            // console.log(score)
+            // append score onto the page
+        })
+        // if (this.a("clicked")){ 
+        // score = score + parseInt($("#one").val());
+        // $('#scoreBoard').html(score)
+        // console.log("rightanswer")}
+        // else{
+        // score += parseInt($("#one").val());
+        // }
+
+      
+    })
+    
+    $("#tdtwo").on("click", function(){
+        swal({
+        text: "What is the name of the 2004 sequal ?",
+        buttons: {
+            a: "Index",
+            b: "Thumb",
+            c: "Middle",
+            d: "Pointer",
+        }}
+        )
+        // $('.swal-button--c').on('click', () => {
+        //     score += 100;
+        //     $('#scoreBoard').html("Score:" + score)
+
+        // })
     })
 
