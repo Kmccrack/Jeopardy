@@ -1,7 +1,9 @@
-let score = 0;
+var score = 0;
 
-$("#one").on("click", function(){
-        swal({
+document.getElementById("one").addEventListener("click", clickMeOne)
+
+function clickMeOne() {
+    swal({
         text: "Finish the cheer: Awesome! Oh wow! 'Like totally freak me out........'",
         buttons: {
             a: "I mean right on!",
@@ -10,27 +12,16 @@ $("#one").on("click", function(){
             d: "I totally said right on!",
         }}
         )
-       
-        $('.swal-button--a').on('click', () => {
-            // console.log(score, $('#one').val())
-            // score += parseInt($("#one").val());
+         $('.swal-button--a').on('click', () => {
             score += 100;
             $('#scoreBoard').html("Score:" + score)
-            // console.log(score)
-            // append score onto the page
-        })
-        // if (this.a("clicked")){ 
-        // score = score + parseInt($("#one").val());
-        // $('#scoreBoard').html(score)
-        // console.log("rightanswer")}
-        // else{
-        // score += parseInt($("#one").val());
-        // }
 
-      
-    })
-    
-    $("#tdtwo").on("click", function(){
+        })
+
+}
+document.getElementById("two").addEventListener("click", clickMeTwo)
+   
+function clickMeTwo() {
         swal({
         text: "What is the name of the 2004 sequal ?",
         buttons: {
@@ -40,10 +31,11 @@ $("#one").on("click", function(){
             d: "Pointer",
         }}
         )
+        console.log("working")
         // $('.swal-button--c').on('click', () => {
         //     score += 100;
         //     $('#scoreBoard').html("Score:" + score)
 
         // })
-    })
+    }
 
