@@ -45,17 +45,19 @@ function questionTwo() {
 
 document.getElementById("three").addEventListener("click", questionThree)
 
-function questionTwo() {
+function questionThree() {
     swal({
-        text: "The Toros placed first in Nationals.",
+        text: "The clovers main colour of their uniform is...",
         buttons: {
-            a: "True",
-            b: "False",
+            a: "Red",
+            b: "Orange",
+            c: "Yellow",
+            d: "Green"
             
         }
     }
     )
-    $('.swal-button--b').on('click', () => {
+    $('.swal-button--d').on('click', () => {
         score += 100;
         $('#scoreBoard').html("Score:" + score)
 
@@ -97,6 +99,26 @@ function questionSeven() {
     }
     )
     $('.swal-button--c').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("eight").addEventListener("click", questionEight)
+
+function questionEight() {
+    swal({
+        text: "Who was the captain of the Clover's cheerleading squad?",
+        buttons: {
+            a: "Lava",
+            b: "Isis",
+            c: "They didn't say",
+            d: "Lava and Isis were both co-captains",
+        }
+    }
+    )
+    $('.swal-button--b').on('click', () => {
         score += 100;
         $('#scoreBoard').html("Score:" + score)
 
@@ -147,6 +169,26 @@ function questionTwelve() {
     })
 }
 
+document.getElementById("thirteen").addEventListener("click", questionThirteen)
+
+function questionThirteen() {
+    swal({
+        text: "Three of the Clovers have a hip hop group together.",
+        buttons: {
+            a: "True",
+            b: "False",
+           
+        }
+    }
+    )
+
+    $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
 document.getElementById("sixteen").addEventListener("click", questionSixteen)
 
 function questionSixteen() {
@@ -188,6 +230,24 @@ function questionSeventeen() {
     })
 }
 
+document.getElementById("eighteen").addEventListener("click", questionEighteen)
+
+function questionEighteen() {
+    swal({
+        text: "Did Big Red steal cheers from the East Compton Clovers?",
+        buttons: {
+            a: "Yes",
+            b: "No",
+        }
+    }
+    )
+    $('.swal-button--a').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
 document.getElementById("twentyone").addEventListener("click", questionTwentyOne)
 
 function questionTwentyOne() {
@@ -222,6 +282,26 @@ function questionTwentyTwo() {
     }
     )
     $('.swal-button--d').on('click', () => {
+        score += 100;
+        $('#scoreBoard').html("Score:" + score)
+
+    })
+}
+
+document.getElementById("twentythree").addEventListener("click", questionTwentyThree)
+
+function questionTwentyThree() {
+    swal({
+        text: "Which show did the Clover's go on to get their sponsership money?",
+        buttons: {
+            a: "The Pauletta Show",
+            b: "The Oprah Show",
+            c: "Dr.Phil",
+            d: "The Maury Show",
+        }
+    }
+    )
+    $('.swal-button--a').on('click', () => {
         score += 100;
         $('#scoreBoard').html("Score:" + score)
 
